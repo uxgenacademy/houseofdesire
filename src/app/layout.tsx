@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "House of Desire",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://houseofdesire.in/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "House of Desire - Revenue Lock System",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "House of Desire | Salon Growth System",
     description: "Salon owners ke liye Revenue Lock System. 30 din me 3x client retention, bina ads ke.",
-    images: ["/og-image.jpg"],
+    images: ["https://houseofdesire.in/og-image.jpg"],
   },
 };
 
