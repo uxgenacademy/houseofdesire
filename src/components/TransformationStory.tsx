@@ -111,7 +111,7 @@ export default function TransformationStory() {
                 {/* Before Image */}
                 <div className="relative h-56 sm:h-64 w-full rounded-2xl overflow-hidden border border-red-200 group shadow-inner">
                   <Image
-                    src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80"
+                    src="/assets/images/dull-salon.jpg"
                     alt="Empty dull salon with stressed owner"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
