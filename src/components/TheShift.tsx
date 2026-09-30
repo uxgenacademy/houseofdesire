@@ -82,7 +82,7 @@ export default function TheShift() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#1A1A1A] leading-tight"
+            className="text-3xl sm:text-4xl md:text- font-bold tracking-tight text-[#1A1A1A] leading-tight"
           >
             2026 Ka Customer Pehle Visit Nahi Karta.{" "}
             <span className="text-gradient-violet-pink">

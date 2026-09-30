@@ -31,7 +31,7 @@ export default function FinalCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-3xl sm:text-5xl md:text-6xl font-bold text-[#1A1A1A] leading-[1.15] tracking-tight max-w-4xl mx-auto"
+          className="text-3xl sm:text-4xl md:text- font-bold text-[#1A1A1A] leading-[1.15] tracking-tight max-w-4xl mx-auto"
         >
           Sasta Bechoge Toh Saste Client Milenge.{" "}
           <span className="text-gradient-gold">Desire Bechoge Toh Premium.</span>{" "}

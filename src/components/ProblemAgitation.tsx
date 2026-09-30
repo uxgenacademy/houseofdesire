@@ -91,10 +91,10 @@ export default function ProblemAgitation() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight"
+            className="text-3xl sm:text-4xl md:text- font-bold tracking-tight text-white leading-tight"
           >
-            Problem Aapke Parlour Me Nahi,{" "}
-            <span className="text-gradient-pain">Aapke Digital Ecosystem Me Hai</span>
+            Aapka Kaam Best Hai, Phir Bhi Client Bagal Wale Salon Me Kyu Ja Raha Hai?{" "}<br />
+            <span className="text-gradient-pain">Problem aapke parlour ya salon me nahi, aapke digital ecosystem me hai.</span>
           </motion.h2>
 
           <motion.p
@@ -104,8 +104,9 @@ export default function ProblemAgitation() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg text-zinc-400 font-light"
           >
-            Har mahine 40-50 high-ticket clients Gurgaon ke salon me aana chahte hain, lekin in 3
-            silent leakages ki wajah se aapke paas aane se pehle hi filter ho jaate hain:
+            Most salons don't have a marketing problem, they have a visibility problem. Har mahine 40-50 high-ticket clients Gurgaon ke salon me aana chahte hain, lekin in 3 silent leakages ki wajah se aapke paas aane se pehle hi filter ho jaate hain:  
+
+
           </motion.p>
         </div>
 
@@ -159,12 +160,7 @@ export default function ProblemAgitation() {
                       </p>
                     </div>
 
-                    <div className="p-3.5 rounded-xl bg-red-950/20 border border-red-500/20 mt-4">
-                      <p className="text-xs text-red-300 leading-normal">
-                        <span className="font-semibold text-red-200">Asli Nuksan: </span>
-                        {card.agitation}
-                      </p>
-                    </div>
+                   
                   </div>
                 </div>
               </motion.div>
