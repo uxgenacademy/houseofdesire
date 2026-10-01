@@ -47,27 +47,7 @@ export default function FloatingWhatsApp() {
         </a>
       </div>
 
-      {/* Sticky Mobile Bar (Visible on mobile screens at bottom) */}
-      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 p-2.5 bg-white/95 backdrop-blur-2xl border-t border-[#FF2E93]/15 shadow-[0_-10px_30px_rgba(0,0,0,0.08)]">
-        <a
-          href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full flex items-center justify-between px-4 py-3 rounded-full bg-gradient-to-r from-[#FF2E93] via-[#D81B60] to-[#8A5CFF] text-white font-extrabold text-xs shadow-lg shadow-[#FF2E93]/30 active:scale-95 transition-transform"
-        >
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center">
-              <MessageCircle className="w-4 h-4 text-white" />
-            </div>
-            <span className="truncate">GenZ Ready Banna Hai? WhatsApp Karo</span>
-          </div>
-
-          <div className="flex items-center gap-1 text-[#FFF4B8] font-mono text-[11px] shrink-0 font-black">
-            <span>9643903008</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </div>
-        </a>
-      </div>
+      
     </>
   );
 }

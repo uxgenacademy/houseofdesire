@@ -38,7 +38,7 @@ export default function VSLSection() {
             viewport={{ once: true }}
             className="text-3xl sm:text-4xl md:text- font-bold tracking-tight text-[#1A1A1A] leading-tight"
           >
-            Ye 3 Leakages Band Nahi Hue Toh <span className="text-[#FF2E93]">Next 6 Months Me</span> Aapka Salon 40% Peeche Chala Jayega
+             Ye 3 Mistakes Aapko Gurgaon Me <span className="text-[#FF2E93]">"Sasti Wali"</span> Bana Rahi Hain. <span className="text-[#FF2E93]">Agle 6 Months Me</span> Aap Premium List Se Nikal Jaoge.
           </motion.h2>
 
           <motion.p
@@ -48,7 +48,7 @@ export default function VSLSection() {
             transition={{ delay: 0.1 }}
             className="text-base sm:text-lg text-[#6B7280]"
           >
-            Dekho kaise Gurgaon ke top salons ne apna Google + Instagram ka ecosystem fix kiya - Live breakdown
+           14 ghante kaam karke bhi agar roz ka <span className="text-red-600 font-bold">₹9,312</span> bagal wale ko ja raha hai, toh premium tag kaise bachega? Dekho kaise top salons ne apna Google + Insta fix kiya.
           </motion.p>
         </div>
 

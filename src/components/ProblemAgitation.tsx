@@ -24,7 +24,7 @@ export default function ProblemAgitation() {
       story:
         "Client Google pe 'Best Bridal in Gurgaon' search karta hai. Aap 8th number pe ho. Wo upar wale 3 ko hi call karta hai. Aap dikhe hi nahi.",
       agitation:
-        "Aapki bridal makeup artistry 10x better ho sakti hai, lekin jab client pehle 3 options me book kar leta hai, toh aapki skill dekhne koi aayega hi nahi.",
+        "Matlab roz ke 10 clients bina aapko dekhe hi nikal gaye.",
     },
     {
       id: "trust",
@@ -43,7 +43,7 @@ export default function ProblemAgitation() {
       story:
         "Client Instagram pe dekhta hai, last post 3 mahine purana. Usse lagta hai salon band ho gaya. Wo bharosa hi nahi karta.",
       agitation:
-        "2026 ki ladki salon aane se pehle Instagram stories aur ambience reel dekhti hai. Dull lighting aur blurry photos dekh ke wo scroll kar ke next competitor pe shift ho jaati hai.",
+        "Client ko lagta hai aapka salon band ho gaya hai.",
     },
     {
       id: "booking",
@@ -62,7 +62,7 @@ export default function ProblemAgitation() {
       story:
         "Inquiry aayi, aapne 5 ghante baad reply diya. Tab tak client 3 aur parlour ko message kar chuka hai. Speed ka zamana hai.",
       agitation:
-        "Aur jab aap sirf '₹3500' bolte ho without showing Desire, wo bargaining mode me chala jaata hai ya 'theek hai soch ke batati hu' bol ke gayab ho jaata hai.",
+        "Tab tak wo bagal wale me booking kar chuki hai.",
     },
   ];
 
@@ -94,7 +94,7 @@ export default function ProblemAgitation() {
             className="text-3xl sm:text-4xl md:text- font-bold tracking-tight text-white leading-tight"
           >
             Aapka Kaam Best Hai, Phir Bhi Client Bagal Wale Salon Me Kyu Ja Raha Hai?{" "}<br />
-            <span className="text-gradient-pain">Problem aapke parlour ya salon me nahi, aapke digital ecosystem me hai.</span>
+            <span className="text-gradient-pain">Problem aapke haathon me nahi, aapke dikhne me hai.</span>
           </motion.h2>
 
           <motion.p
@@ -104,7 +104,7 @@ export default function ProblemAgitation() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg text-zinc-400 font-light"
           >
-            Most salons don't have a marketing problem, they have a visibility problem. Har mahine 40-50 high-ticket clients Gurgaon ke salon me aana chahte hain, lekin in 3 silent leakages ki wajah se aapke paas aane se pehle hi filter ho jaate hain:  
+           Most salons don't have a marketing problem, they have a visibility problem. Client aapko hi dhundh raha hai, par in 3 silent leakages ki wajah se aap tak pahuchne se pehle hi filter ho jaata hai: 
 
 
           </motion.p>
@@ -154,10 +154,15 @@ export default function ProblemAgitation() {
                       </div>
                       <h3 className="text-xl font-bold text-white group-hover:text-[#FF85C0] transition-colors">
                         {card.title}
+
                       </h3>
                       <p className="text-sm text-zinc-300 mt-2.5 leading-relaxed font-normal">
                         {card.story}
                       </p>
+
+                      <div className="p-3.5 rounded-xl bg-red-950/20 border border-red-500/20 mt-4"><p className="text-xs text-red-300 leading-normal"><span className="font-semibold text-red-200">Asli Nuksan: </span> {card.agitation}</p></div>
+
+                     
                     </div>
 
                    

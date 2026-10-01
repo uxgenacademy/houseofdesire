@@ -12,8 +12,10 @@ import FounderAuthority from "@/components/FounderAuthority";
 import DesireGrid from "@/components/DesireGrid";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
+import StickyLossBar from "@/components/StickyLossBar";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 
 export default function Home() {
   return (
@@ -36,8 +38,8 @@ export default function Home() {
       {/* --- ZONE 2: DESIRE & GROWTH (WARM WHITE #FFFBF7 / #FFF8F3) --- */}
       <div className="bg-[#FFFBF7] text-[#1A1A1A]">
 
-         {/* 3.5 VSL - YE NAYA ADD KARO */}
-       <VSLSection />
+         {/* 3.5 VSL - YE NAYA ADD KARO <VSLSection /> */}
+       
 
 
         {/* 4. The Shift - GenZ Insight Fold (Turning Point) */}
@@ -51,6 +53,9 @@ export default function Home() {
 
         {/* 7. Transformation Story - Before/After (Pain to Growth) */}
         <TransformationStory />
+
+        <StickyLossBar />
+        <ExitIntentPopup />
 
        {/* 7.7 Lead Magnet*/}
         <ChecklistLeadMagnet />
